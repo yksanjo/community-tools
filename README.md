@@ -2,6 +2,26 @@
 
 A collection of Python tools designed to help open source communities and developer teams work more efficiently.
 
+![Community Tools](https://img.shields.io/badge/Community-Tools-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.11+-green?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
+> **Built with ❤️ for open source communities worldwide**
+
+## 📸 Screenshots
+
+### PR Summarizer Dashboard
+![PR Summarizer](https://via.placeholder.com/800x400/667eea/ffffff?text=PR+Summarizer+Dashboard)
+*Automatically generate TL;DR summaries with multi-platform support*
+
+### Meeting Action Extractor
+![Meeting Action Extractor](https://via.placeholder.com/800x400/764ba2/ffffff?text=Meeting+Action+Extractor)
+*Extract action items and post to Discord/Slack automatically*
+
+### GitHub Star Notifier Dashboard
+![Star Notifier](https://via.placeholder.com/800x400/5865F2/ffffff?text=GitHub+Star+Notifier+Dashboard)
+*Beautiful web dashboard to track repository stars and engage with community*
+
 ## 🎯 Tools Included
 
 ### 1. **PR Summarizer** ⭐
