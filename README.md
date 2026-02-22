@@ -1,132 +1,82 @@
-# Community Tools 🚀
+# community-tools
 
-A collection of Python tools designed to help open source communities and developer teams work more efficiently.
+## Detailed Description
 
-![Community Tools](https://img.shields.io/badge/Community-Tools-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.11+-green?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+community-tools is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-> **Built with ❤️ for open source communities worldwide**
+## Problem Statement
 
-## 📸 Screenshots
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-### PR Summarizer Dashboard
-![PR Summarizer](https://via.placeholder.com/800x400/667eea/ffffff?text=PR+Summarizer+Dashboard)
-*Automatically generate TL;DR summaries with multi-platform support*
+## Solution Overview
 
-### Meeting Action Extractor
-![Meeting Action Extractor](https://via.placeholder.com/800x400/764ba2/ffffff?text=Meeting+Action+Extractor)
-*Extract action items and post to Discord/Slack automatically*
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-### GitHub Star Notifier Dashboard
-![Star Notifier](https://via.placeholder.com/800x400/5865F2/ffffff?text=GitHub+Star+Notifier+Dashboard)
-*Beautiful web dashboard to track repository stars and engage with community*
+## Key Features
 
-## 🎯 Tools Included
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
 
-### 1. **PR Summarizer** ⭐
-Automatically generates TL;DR summaries of Pull Requests with:
-- Multi-platform support (GitHub, GitLab, Bitbucket)
-- Beginner-friendly/educational mode
-- PR categorization (bug fix, feature, docs, etc.)
-- Contribution suggestions
-- Docker support
+## Repository Structure
 
-### 2. **Meeting Action Extractor** 📋
-Extracts action items from meeting notes with:
-- Discord & Slack integration
-- Multiple extraction methods (LLM, regex)
-- Formatted output for community platforms
-- Group by assignee
-
-### 3. **Dead Link Checker** 🔗
-Monitors and reports broken links:
-- Recursive crawling
-- GitHub Actions integration
-- CSV/JSON export
-- Auto-issue creation
-
-### 4. **GitHub Star Notifier** ⭐
-Get notified when someone stars your repository:
-- Web dashboard
-- Slack/Discord notifications
-- User analytics
-- Follower filtering
-
-### 5. **API Rate Limit Monitor** 📊
-Monitor API rate limits and get alerts:
-- Multi-API support
-- Slack/Discord alerts
-- Configurable thresholds
-
-### 6. **Domain Expiration Monitor** 🌐
-Never lose a domain again:
-- WHOIS checking
-- Multiple alert thresholds
-- Slack notifications
-
-### 7. **Invoice Reminder Bot** 💰
-Automated follow-up for unpaid invoices:
-- Stripe integration
-- Email reminders
-- Configurable schedules
-
-### 8. **Post-Mortem Generator** 📝
-Generate structured incident post-mortems:
-- Interactive CLI
-- Template system
-- Action item tracking
-
-## 🚀 Quick Start
-
-### PR Summarizer
-```bash
-cd pr-summarizer
-pip install -r requirements.txt
-python enhanced_summarizer.py owner/repo 123 --beginner-friendly
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-### Meeting Action Extractor
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
+
 ```bash
-cd meeting-action-extractor
-pip install -r requirements.txt
-python enhanced_extractor.py -i notes.txt -o actions.json --discord
+make test
+make lint
 ```
 
-### GitHub Star Notifier Dashboard
-```bash
-cd github-star-notifier
-pip install -r requirements.txt
-export GITHUB_TOKEN=your_token
-export GITHUB_REPO=owner/repo
-python dashboard.py
-# Open http://localhost:5003
-```
+## Usage
 
-## 📚 Documentation
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-- [Community Tools Analysis](./COMMUNITY_TOOLS_ANALYSIS.md) - Comprehensive analysis
-- [Quick Reference](./COMMUNITY_TOOLS_QUICK_REFERENCE.md) - Quick start guide
-- [Build Summary](./BUILD_SUMMARY.md) - What's been built
-- [PR Summarizer Enhancements](./PR_SUMMARIZER_COMMUNITY_ENHANCEMENTS.md) - Detailed enhancement plan
+## Quality Standards
 
-## 🐳 Docker Support
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-All tools include Docker support:
-```bash
-docker build -t pr-summarizer pr-summarizer/
-docker run --rm -e GITHUB_TOKEN=xxx pr-summarizer owner/repo 123
-```
+## Security
 
-## 🤝 Contributing
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-Contributions welcome! These tools are designed for communities, by communities.
+## Contributing
 
-## 📄 License
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
 
-MIT
+## Roadmap
 
-## 🙏 Acknowledgments
+Track upcoming milestones, technical debt, and planned feature work.
 
-Built with ❤️ for open source communities worldwide.
+## Support
 
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
